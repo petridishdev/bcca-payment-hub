@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "associated_source_id": "MinitryOfEDID",
+        "associated_source_name": "Ministry of Education",
+        "effective_date": "2019-02-01T16:26:29.532471+00:00",
+        "relationship_description": "Client",
+        "relationship_type": "Client",
+        "source_id": "MyContractId101",
+        "source_name": "New School 101"
+    },
+    "schema": "contract_relationship.bcca",
+    "version": "1.0.0"
+}

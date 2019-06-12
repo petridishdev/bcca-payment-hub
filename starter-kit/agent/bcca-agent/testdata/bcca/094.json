@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "amount_paid": "$25,000.00",
+        "certification_id": "ElecCertification1",
+        "effective_date": "2019-05-24T16:26:29.532348+00:00",
+        "payment_id": "SubPayment1",
+        "payment_type": "Some",
+        "reference_number": "123REF01NUM",
+        "subcontract_id": "ElecSubContractID"
+    },
+    "schema": "subcontract-payment.bcca",
+    "version": "1.0.0"
+}

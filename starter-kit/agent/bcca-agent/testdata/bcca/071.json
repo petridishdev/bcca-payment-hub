@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "associated_source_id": "MyContractId101",
+        "associated_source_name": "New School 101",
+        "effective_date": "2019-03-01T16:26:29.532471+00:00",
+        "relationship_description": "Contract",
+        "relationship_type": "Contract",
+        "source_id": "ElecSubContractID",
+        "source_name": "Electrical Work Subcontract"
+    },
+    "schema": "contract_relationship.bcca",
+    "version": "1.0.0"
+}

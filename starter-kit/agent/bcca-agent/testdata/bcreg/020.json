@@ -1,0 +1,21 @@
+{
+    "attributes": {
+        "address_line_1": "1234 Some Street",
+        "address_line_2": "",
+        "addressee": "Mr. Con Sultant",
+        "city": "Surrey",
+        "corp_num": "ConsultantIncID",
+        "country": "CA",
+        "entity_name_effective": "2012-08-23",
+        "entity_status": "Active",
+        "entity_status_effective": "2012-08-23",
+        "entity_type": "Sole Proprietorship",
+        "legal_name": "Bob's Project Management",
+        "postal_code": "V3W 4E3",
+        "province": "BC",
+        "reason_description": "Filing:FRREG",
+        "registration_date": "2012-08-23"
+    },
+    "schema": "Registered Corporation",
+    "version": "1.0.3"
+}

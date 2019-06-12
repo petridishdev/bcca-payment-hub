@@ -1,0 +1,16 @@
+#=========================================================
+# OpenShift template parameters for:
+# Component: tob-web
+# Template File: templates/angular-build.json
+#=========================================================
+NAME=angular-app
+OUTPUT_IMAGE_TAG=latest
+SOURCE_IMAGE_NAMESPACE=openshift
+SOURCE_IMAGE_NAME=nodejs
+SOURCE_IMAGE_TAG=8
+TOB_THEME=bcgov
+TOB_THEME_PATH=src/themes
+CPU_LIMIT=1
+MEMORY_LIMIT=4Gi
+CPU_REQUEST=250m
+MEMORY_REQUEST=2Gi

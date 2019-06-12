@@ -1,0 +1,11 @@
+{
+    "attributes": {
+        "amount_paid": "$100,000.00",
+        "contract_id": "MyContractId101",
+        "effective_date": "2019-03-24T16:26:29.532034+00:00",
+        "payment_id": "Payment1",
+        "payment_type": "Cash"
+    },
+    "schema": "contract-payment.bcca",
+    "version": "1.0.0"
+}
