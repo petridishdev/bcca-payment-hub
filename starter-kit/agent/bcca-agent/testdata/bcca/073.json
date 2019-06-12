@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "associated_source_id": "ElecStuffID",
+        "associated_source_name": "Electrical Stuff",
+        "effective_date": "2019-03-01T16:26:29.532471+00:00",
+        "relationship_description": "Sub-Contractor",
+        "relationship_type": "Sub-Contractor",
+        "source_id": "ElecSubContractID",
+        "source_name": "Electrical Stuff"
+    },
+    "schema": "contract_relationship.bcca",
+    "version": "1.0.0"
+}

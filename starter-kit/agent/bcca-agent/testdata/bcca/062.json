@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "source_id": "ConsultantIncID",
+        "source_name": "Bob's Project Management",
+        "effective_date": "2019-02-01T16:26:29.532471+00:00",
+        "relationship_description": "Contract",
+        "relationship_type": "Contract",
+        "associated_source_id": "MyContractId101",
+        "associated_source_name": "New School 101"
+    },
+    "schema": "contract_relationship.bcca",
+    "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+    "attributes": {
+        "certification_id": "ElecCertification1",
+        "effective_date": "2019-04-24T16:26:29.532185+00:00",
+        "payment_certifier": "Bob Consultant",
+        "subcontract_id": "ElecSubContractID"
+    },
+    "schema": "certificate-of-completion.bcca",
+    "version": "1.0.0"
+}

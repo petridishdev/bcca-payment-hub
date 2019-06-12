@@ -1,0 +1,21 @@
+{
+    "attributes": {
+        "address_line_1": "3644 Holdom Avenue",
+        "address_line_2": "",
+        "addressee": "Ms. Frances T Worrell",
+        "city": "Surrey",
+        "corp_num": "MinitryOfEDID",
+        "country": "CA",
+        "entity_name_effective": "2009-07-19",
+        "entity_status": "Active",
+        "entity_status_effective": "2009-07-19",
+        "entity_type": "BC Company",
+        "legal_name": "Ministry of Education",
+        "postal_code": "V3T 4Y5",
+        "province": "BC",
+        "reason_description": "Filing:REGST",
+        "registration_date": "2009-07-19"
+    },
+    "schema": "Registered Corporation",
+    "version": "1.0.3"
+}

@@ -1,0 +1,17 @@
+{
+    "attributes": {
+        "contract_end_date": "2019-08-01T16:26:29.531881+00:00",
+        "contract_id": "MyContractId101",
+        "contract_name": "Plumbing Work",
+        "contract_start_date": "2019-06-11T16:21:55.443441+00:00",
+        "contract_type": "Plumbing",
+        "effective_date": "2019-03-01T16:26:29.531881+00:00",
+        "legal_name": "New School 101",
+        "payment_terms": "Payment on Acceptance",
+        "subcontract_id": "PlumbSubContractID",
+        "subcontract_name": "Plumbing Work Subcontract",
+        "subcontractor_corp_num": "PlumberID"
+    },
+    "schema": "subcontract.bcca",
+    "version": "1.0.0"
+}
