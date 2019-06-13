@@ -44,3 +44,9 @@ This will load sample data.
 
 Now open https://localhost:8080/ in a browser, search for "Ministry of Education", and follow the links.
 
+3. Credentials are based on the following model:
+
+![BCCA Entity Model](starter-kit/agent/bcca-agent/config/bcca_schemas.png "BCCA Entity Model")
+
+(Note that Project and Contract are collapsed into one credential.)
+
