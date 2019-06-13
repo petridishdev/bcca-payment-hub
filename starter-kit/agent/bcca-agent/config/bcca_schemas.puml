@@ -1,26 +1,33 @@
 @startuml
 package Corporations {
     object Client
+    object Consultant
     object GeneralContractor
     object SubContractor
 }
 package Contracts {
+    object Project
     object Contract
     object SubContract
 }
 object CertificateOfCompletion
+object CertificateOfPayment
 package Payments {
     object ContractPayment
     object SubContractPayment
 }
 
-object ClientContractRelationship
+object ClientProjectRelationship
+object ConsultantProjectRelationship
 object ContractorContractRelationship
 object ContractSubContractRelationship
 object SubContractorSubContractRelationship
 
-Client --> Contract
-(Client, Contract) .. ClientContractRelationship
+Client --> Project
+(Client, Project) .. ClientProjectRelationship
+Consultant --> Project
+(Consultant, Project) .. ConsultantProjectRelationship
+Project --> Contract
 GeneralContractor --> Contract
 (GeneralContractor, Contract) .. ContractorContractRelationship
 Contract --> SubContract
@@ -29,5 +36,6 @@ SubContractor --> SubContract
 (SubContractor, SubContract) .. SubContractorSubContractRelationship
 Contract --> ContractPayment
 SubContract --> CertificateOfCompletion
-CertificateOfCompletion --> SubContractPayment
+CertificateOfCompletion --> CertificateOfPayment
+CertificateOfPayment --> SubContractPayment
 @enduml
