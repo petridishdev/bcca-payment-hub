@@ -37,6 +37,9 @@ cd bcca-payment-hub/starter-kit/agent/docker
 
 ```
 cd bcca-payment-hub/starter-kit/agent/bcca-agent
+virtualenv venv
+source ./vent/bin/activate
+pip install -r requirements.txt
 ./load-creds.sh
 ```
 
