@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { Location } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule, APP_INITIALIZER } from '@angular/core';
+import { NgModule, APP_INITIALIZER, Injectable } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Routes } from '@angular/router';
 
@@ -61,6 +61,7 @@ export class WebpackLocalizeRouterLoader extends LocalizeParser {
     });
   }
 }
+@Injectable()
 export class MyMissingTranslationHandler implements MissingTranslationHandler {
   handle(params: MissingTranslationHandlerParams) {
     // params: {key, translateService}

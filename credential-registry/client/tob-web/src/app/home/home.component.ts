@@ -10,7 +10,7 @@ import { GeneralDataService } from 'app/general-data.service';
 })
 export class HomeComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('searchInput', { static: false }) _searchInput: SearchInputComponent;
+  @ViewChild('searchInput') _searchInput: SearchInputComponent;
   public inited = false;
   public loadError = null;
   public recordCounts: any = {};
