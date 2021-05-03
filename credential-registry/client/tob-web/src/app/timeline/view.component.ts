@@ -18,7 +18,7 @@ import { Timeline } from '../timeline/timeline';
   },*/
 })
 export class TimelineViewComponent implements AfterViewInit, OnDestroy {
-  @ViewChild('outer') private _outer: ElementRef;
+  @ViewChild('outer', { static: true }) private _outer: ElementRef;
   private _timeline: Timeline.TimelineView;
   private _range: {start: (string | Date), end: (string | Date)};
   private _resizeHook: null;
